@@ -1,0 +1,31 @@
+<!--pages/demo04/demo04.wxml-->
+<!--
+  1 image 图片标签
+  src 要加载的图片的路径
+    图片存在默认的宽度和高度 原图大小是 200 * 100
+  2 mode 决定图片内容 图片标签 宽高 做适配
+  3 小程序中的图片 直接就支持 懒加载
+-->
+<image mode="widthFix" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201906%2F13%2F20190613103538_yzfvf.thumb.1000_0.jpg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1641049443&t=e92dc984c14f9caca3fbcce4e3cc0192"/>
+
+<!--
+  1 轮播图的外层容器叫做swiper
+  2 每一个轮播项 swiper-item
+  3 swiper 存在默认样式 
+    1 width 100%
+    2 height 150px  image 存在默认宽度和高度 320 * 240 
+    3 height 无法实现由内容撑开
+  4 先找出原图的宽度和高度 等比例 给swiper 定宽度和高度
+    原图的宽度和高度 1000*565px
+    swiper 宽度 / swiper 高度 = 原图的宽度 / 原图的高度
+    height：100%*565/1000
+  5 autoplay 自动轮换
+  6 interval 修改轮播时间
+  7 circular 衔接轮播
+-->
+<swiper autoplay interval="3000" circular indicator-dots>
+<swiper-item> <image mode="aspectFit" src="//gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201906%2F13%2F20190613103538_yzfvf.thumb.1000_0.jpg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1641049443&t=e92dc984c14f9caca3fbcce4e3cc0192"/></swiper-item>
+<swiper-item> <image mode="aspectFit" src="//gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201508%2F29%2F20150829123548_MnztP.thumb.700_0.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1641049443&t=f7d4a619a77c9044394615c8555a40d8"/></swiper-item>
+<swiper-item> <image mode="aspectFit" src="//gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201503%2F27%2F20150327173547_ECLrX.thumb.400_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1641053276&t=b23f31a227f10a1efd8444cee2cecfcb"/></swiper-item>
+
+</swiper>

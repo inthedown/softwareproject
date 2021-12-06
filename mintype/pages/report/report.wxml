@@ -1,0 +1,21 @@
+<!--pages/report/report.wxml-->
+<view class="head">
+    <image src="/icon/mine.png" mode="scaleToFill" binderror="" bindload=""></image>
+    <text>USERNAME</text><text>的个人问卷</text>
+</view>
+
+<view class="item" id="first">
+    <text>基本信息</text>
+</view>
+<view class="item">
+    <text>营养目标</text>
+</view>
+<view class="item">
+    <text>生活习惯</text>
+</view>
+<view class="item">
+    <text>身体状况</text>
+</view>
+<view class="button" bindtap="tiaozhuan"> 
+    <text>生成报告</text>
+</view>

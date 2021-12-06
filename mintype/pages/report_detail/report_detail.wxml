@@ -1,0 +1,27 @@
+<!--pages/report_detail/report_detail.wxml-->
+<view class="head">
+  <image mode="aspectFit" src="/icon/helper.png"/>
+  <text decode>&ensp;添加健康伙伴小牛，为你解读营养报告</text>
+  <image class="test" mode="scaleToFill" src="/icon/exam.png"/>
+  </view>
+<view class="part2">
+  <view class="timetxt">2021/11/09</view>
+  <view class="report" bindtap="tiaozhuan">
+    <text class="txt">查看报告</text>
+  </view>
+  <text class="name" decode>
+    &nbsp;无名小卒
+  </text>
+  <view class="recommend">营养师推荐：5种补剂</view>
+  <view class="detail">
+    <text class="txt">推荐详情</text>
+  </view>
+</view>
+<view class="txt2">由于不同季节的生活习惯变化普遍较大,
+营养师建议每3个月重新测试一次
+</view>
+<view class="again">
+<text>再次测试</text>
+</view>
+
+

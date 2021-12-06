@@ -1,0 +1,39 @@
+/* pages/quiz/quiz.wxss */
+.age{
+    margin-left: 5rpx;
+    margin-top: 10rpx;
+    width: 98%;
+    border: #BBBBBB 5rpx solid;
+    border-radius: 10rpx;
+}
+.head{
+    font-size: 28rpx;
+}
+.age_option{
+    margin-left: 3rpx;
+    font-size: 25rpx;
+    border: #BBBBBB 5rpx solid;
+    width: 30rpx;
+    height: 60rpx;
+}
+.gender{
+    margin-left: 5rpx;
+    margin-top: 10rpx;
+    width: 98%;
+    border: #BBBBBB 5rpx solid;
+    border-radius: 10rpx;
+}
+.height{
+    margin-left: 5rpx;
+    margin-top: 10rpx;
+    width: 98%;
+    border: #BBBBBB 5rpx solid;
+    border-radius: 10rpx;
+}
+.weight{
+    margin-left: 5rpx;
+    margin-top: 10rpx;
+    width: 98%;
+    border: #BBBBBB 5rpx solid;
+    border-radius: 10rpx;
+}

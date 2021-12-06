@@ -1,0 +1,102 @@
+/* pages/exact/exact.wxss */
+Page{
+    background-color: #F9F2BC;
+  }
+.img{
+    width: 75rpx;
+    height: 75rpx;
+    margin-left: 20rpx;
+}
+text{
+    font-size: 25rpx;
+    font-family:"webfont" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.3px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.head{
+    width: 95%;
+    height:260rpx;
+    margin-left: 20rpx;
+    margin-top: 20rpx;
+    border: #BBBBBB 5rpx solid;
+    border-radius: 20rpx;
+    background-color: #F7F3DF;
+}
+.item1{
+    width: 90%;
+    height:380rpx;
+    margin-top: 25rpx;
+    margin-left: 30rpx;
+    border: #BBBBBB 5rpx solid;
+    border-radius: 20rpx;
+    background-color: #F7F3DF;
+}
+.nav1{
+    width: 85%;
+    height:160rpx;
+    margin-top: 30rpx;
+    margin-left: 50rpx;
+    border: #BBBBBB 5rpx solid;
+    border-radius: 20rpx;
+    background-color: #F2DF00;
+}
+.grade{
+    font-size: 36rpx;
+}
+.nav2{
+    width: 80%;
+    height:80rpx;
+    margin-top: 30rpx;
+    margin-left: 50rpx;
+    border: #BBBBBB 5rpx solid;
+    border-radius: 20rpx;
+    background-color: #F2DF00;
+}
+.item2{
+    width: 75%;
+    height: 160rpx;
+    margin-top: 25rpx;
+    margin-left: 90rpx;
+    border: #BBBBBB 5rpx solid;
+    border-radius: 20rpx;
+    background-color: #F7F3DF;
+}
+.item3{
+    width: 75%;
+    height: 160rpx;
+    margin-top: 25rpx;
+    margin-left: 90rpx;
+    border: #BBBBBB 5rpx solid;
+    border-radius: 20rpx;
+    background-color: #F7F3DF;
+}
+.item4{
+    width: 75%;
+    height: 200rpx;
+    margin-top: 25rpx;
+    margin-left: 90rpx;
+    border: #BBBBBB 5rpx solid;
+    border-radius: 20rpx;
+    background-color: #F7F3DF;
+}
+.potential{
+    height: 80rpx;
+    border: #BBBBBB 5rpx solid;
+    border-radius: 20rpx;
+    background-color: #DFDFDF;
+
+}
+.consult{
+    margin-top: 100rpx;
+    margin-left: 300rpx;
+    margin-right: 200rpx;
+    position: relative;
+}
+.test{
+    margin-left: 20rpx;
+}
+.plan{
+    margin-left: 420rpx;
+}

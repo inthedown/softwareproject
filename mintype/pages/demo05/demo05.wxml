@@ -1,0 +1,17 @@
+<!--pages/demo05/demo05.wxml-->
+<!--
+   navigator导航组件
+   块级元素 默认会换行 可以直接加宽度和高度
+   1.url 跳转的页面路径 绝对路径 相对路径
+   2.target 要跳转到当前的小程序 还是其他的小程序的页面
+   self 默认值页面
+   miniProgram 其他的小程序的页面
+   3.open-type
+   navigator  
+-->
+<navigator url="/pages/demo04/demo04">
+轮播图页面
+</navigator>
+<navigator url="/pages/demo04/demo04">
+轮播图页面
+</navigator>

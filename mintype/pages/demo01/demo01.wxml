@@ -1,0 +1,38 @@
+<!--pages/demo01/demo01.wxml-->
+<text>pages/demo01/demo01.wxml</text>
+
+<!--
+  11条件渲染
+  1 wx:if="{{true/false}}"
+      1. if else if else
+      wx:if
+      wx:elif
+      wx:else
+  2.hidden
+    1.标签上直接加属性hidden
+    2.hidden={{true}}
+  3.什么场景下用哪个
+    1.标签频繁切换显示 优先使用wx：if
+    直接移除掉标签
+    2.当标签频繁切换显示 使用hidden
+    添加样式来切换显示
+    hidden 属性 不要和 样式 display 一起使用
+
+-->
+
+<view>
+<view>条件渲染</view>
+<view wx:if="{{true}}">显示</view>
+<view wx:if="{{false}}">隐藏</view>
+
+<view wx:if="{{false}}">1</view>
+<view wx:elif="{{false}}">2</view>
+<view wx:else="{{true}}">3</view>
+<view>-----------------------</view>
+<view hidden>hidden1</view>
+<view hidden="{{false}}">hidden2</view>
+
+<view>-------我是分割线--------</view>
+<view hidden  style="display: flex;" >hidden</view>
+</view>
+

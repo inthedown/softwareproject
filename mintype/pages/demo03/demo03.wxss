@@ -1,0 +1,15 @@
+/* pages/demo03/demo03.wxss */
+/*
+  1 小程序中 不需要主动来引入文件
+*/
+  /* view{
+    width: calc(750rpx*100/375);
+    height: 200rpx;
+    font-size: 40rpx;
+    background-color: aqua;
+  } */
+
+  /* 
+  1、引入 的 代码 是通过 @import 来引入
+  2、路径 只能写相对路径 */
+  @import "../../styles/common.wxss";

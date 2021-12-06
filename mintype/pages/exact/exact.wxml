@@ -1,0 +1,48 @@
+<!--pages/exact/exact.wxml-->
+<view class="head">
+    <image class="img" src="/icon/_mine.png" mode="scaleToFill"/>
+    <text decode="{{true}}">&emsp;&emsp;&emsp;个人营养报告\n</text>
+    <text decode="{{true}}">&nbsp;&nbsp;BMI指数&emsp;&emsp;&emsp;22.3\n</text>
+    <text decode="{{true}}">&nbsp;&nbsp;你的身体质量指数BMI=22.3/m2，属于正常范围，请继\n</text>
+    <text decode="{{true}}">&nbsp;&nbsp;续均衡饮食+合理运动</text>   
+</view>
+<view class="item1">
+    <text decode="{{true}}">&emsp;&emsp;&emsp;你的健康评测综合得分为：</text><text class="grade">74</text>
+    <text>/100\n</text>
+    <view class="nav1">
+        <text decode="{{true}}">&nbsp;&nbsp;你的综合健康水平已经超过了67%的同龄人\n</text>
+        <text decode="{{true}}">&nbsp;&nbsp;·你的饮食健康指数为90%，\n</text>
+        <text decode="{{true}}">&nbsp;&nbsp;·你的心理健康指数为60%。</text>    
+    </view>
+    <view class="nav2">
+        <text decode="{{true}}">&emsp;&emsp;&emsp;你的首要健康目标为</text>
+        <text class="grade" decode="{{true}}">&nbsp;&nbsp;&emsp;皮肤</text>   
+    </view>       
+</view>
+<view class="item2">
+    <text decode="{{true}}">&emsp;&emsp;健康目标建议\n</text>
+    <text decode="{{true}}">&emsp;&emsp;1、多吃坚果，对皮肤好\n</text>
+    <text decode="{{true}}">&emsp;&emsp;2、早睡早起，保证充足的睡眠</text>
+</view>
+<view class="item3">
+    <text decode="{{true}}">&emsp;&emsp;每日小目标\n</text>
+    <text decode="{{true}}">&emsp;&emsp;1、早睡早起\n</text>
+    <text decode="{{true}}">&emsp;&emsp;2、换个大水杯喝水</text>
+</view>
+<view class="item4">
+    <text decode="{{true}}">&emsp;&emsp;潜在健康问题\n</text>
+    <view class="potential">
+        <text decode="{{true}}">&emsp;&emsp;&emsp;&emsp;&emsp;您有潜在的高血压</text>
+    </view>    
+    <text decode="{{true}}">&emsp;&emsp;少油少盐</text>
+</view>
+<button size="mini" class="consult" bindtap="tiaozhuan">
+    <text>询问医师</text>
+</button>
+<button size="mini" class="test">
+    <text>再次测试</text>
+</button>
+<button size="mini" class="plan">
+    <text>营养方案</text>
+</button>
+

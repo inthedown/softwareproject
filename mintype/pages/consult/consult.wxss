@@ -1,0 +1,44 @@
+Page{
+  background-color: #F9F2BC;
+}
+.head{
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.flex-item{
+  width: 95%;
+  height: 120px;
+  margin: 20rpx;
+}
+
+.item{
+  border-radius: 2%;
+  background-color: rgb(189, 196, 189);
+  border: 1px solid rgb(160, 156, 156);
+  align-items: flex-start;
+}
+
+.view-contain-ti {
+  display: block;
+  height: 40px;
+  margin: 20px;
+  border: 3rpx solid #faca82;
+  border-radius: 10rpx;
+}
+
+.text-ti {
+  position: absolute;
+  font-size: 12px;
+  background: white;
+  margin: -10px 0 0 10px;
+  padding: 0 5px;
+  color: rgb(144, 147, 167);
+}
+
+.input1 {
+  margin:  auto 10px;
+}

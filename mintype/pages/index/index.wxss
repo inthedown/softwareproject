@@ -1,0 +1,76 @@
+/**index.wxss**/
+page {
+  background-color: #F1E9A8;
+}   
+.swiper1{
+   width: 100%;
+   height: calc(100vw*750/440);
+} 
+.swiper2{
+  width: 100%;
+  height: calc(100vw*1/2);
+} 
+button::after{ 
+border: none; 
+}
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  border-radius: 30px;
+  background: #0ae427;
+  color: rgb(255, 255, 255);
+  padding: 0rpx 100rpx;
+}
+.picture1{
+   width: 100%;
+   height: calc(100vw*315/321);
+}
+.picture2{
+   margin-top: 20px;
+   margin-left: 39px;
+  width: 60%;
+  height: calc(100vw);
+}
+.picture3{
+  margin-top: 20px;
+  margin-left: 33px;
+  width: 60%;
+  height: calc(100vw*753/769);
+}
+.container {
+   margin-top: 20px;
+   margin-left: 10px;
+ display: flex;
+ flex-direction: row;
+  width: 350px;
+  height: 200px;
+  background-color: #76d819;
+  
+}
+.s1 {
+    margin-left: 10px;
+  width: 150px;
+  height: 150px;
+  background-color: #F0EDED;
+}
+.s2 {
+  margin-right: 10px;
+  width: 150px;
+  height: 150px;
+  background-color: #F0EDED;
+}
+.text1{
+  font-family:"webfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.5px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.text2{
+  font-family:"webfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.5px;
+  -moz-osx-font-smoothing: grayscale;
+}
