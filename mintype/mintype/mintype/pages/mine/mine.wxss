@@ -1,0 +1,150 @@
+/* pages/mine/mine.wxss */
+page{
+    background-color: #F1E9A8;
+}
+.head{
+    width: 100%;
+    height: 180rpx;
+    background-color: #F1E9A8;
+    padding-top: 30rpx;
+}
+.imghead{
+    width: 400rpx;
+    height: 160rpx;
+    background-color: bisque;
+    margin-left: 30rpx;
+    float: left;
+}
+.imghead image{
+    width: 100rpx;
+    height: 100rpx;
+    margin: 0 auto;
+    margin: 20rpx 40rpx;
+    float: left;
+    border-radius: 50%;
+}
+
+.headright{
+    float: right;
+    height: auto;
+    width: auto;
+    margin-top: 20rpx;
+    margin-right: 100rpx;
+}
+.name{
+    float: right;
+    padding-right: 30rpx;
+    width: 190rpx;
+    padding-top: 20rpx;
+}
+.level{
+    float: right;
+    padding-right: 30rpx;
+    width: 190rpx;
+    padding-top: 20rpx;
+}
+.nav{
+    width: 80%;
+    height: 130rpx;
+    margin: 40rpx auto;
+    background-color: white;
+    border: bisque solid 3rpx;
+    border-radius: 100rpx;
+    padding: 10rpx 30rpx;
+    line-height: 100rpx;
+    box-shadow:0px 0px 10px #000;
+}
+.nav image{
+    height: 50rpx;
+    width: 50rpx;
+   
+}
+.vip{
+    float: left;
+    margin-top: 20rpx;
+    
+}
+.market{
+    float: right;
+    margin-top: 20rpx;
+}
+.more{
+    width: 100%;
+    height: 50rpx;
+    padding: 20rpx 10rpx;
+    border: black solid 3rpx;
+    margin-top: 30rpx;
+    margin-bottom: 30rpx;
+    background-color: white;
+}
+.more text{
+    line-height: 40rpx;
+}
+.more image{
+    width: 30rpx;
+    height: 30rpx;
+    
+}
+.more #left{
+    float: left;
+    margin-left: 30rpx;
+}
+.more #right{
+    float: right;
+    margin-right: 40rpx;
+}
+.mid{
+    width: 100%;
+    height: 200rpx;
+    margin: 30rpx auto;
+  
+}
+.footer{
+    width: 100%;
+    height: 60rpx;
+    background-color: white;
+    padding: 10rpx 30rpx;
+    padding-top: 20rpx;
+    border: bisque solid 3rpx;
+   
+}
+#footerfirst{
+    margin-top: 60rpx;
+}
+.mid .nav{
+width: 80%;
+height: 90%;
+margin: 0 auto;
+border: bisque solid 3rpx;
+border-radius: 40rpx;
+display: flex;
+background-color: #FDF9D0;
+box-shadow:2px 2px 5px #000;
+}
+.item{
+    height: 130rpx;
+    width: 150rpx;
+}
+.item image{
+    width: 80rpx;
+    height: 80rpx;
+    padding-left: 20rpx;
+    padding-top: 30rpx;
+}
+.item text{
+    position: relative;
+    top:-40rpx;
+}
+
+
+.footer  image{
+    height: 50rpx;
+    width: 50rpx;
+    padding-left: 30rpx;
+}
+.footer text{
+    margin-left: 40rpx;
+    font-size: 30rpx;
+    position: relative;
+    top: -10rpx;
+}

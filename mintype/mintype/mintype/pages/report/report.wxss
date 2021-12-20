@@ -1,0 +1,59 @@
+/* pages/report/report.wxss */
+page{
+  background-color: #F9F2BC;
+}
+.head{
+  width: 80%;
+  height: 200rpx;
+  margin: 0 auto;
+  margin-top: 100rpx;
+  border: rgb(212, 162, 100) solid 3rpx;
+  border-radius: 100rpx;
+  background-color: white;
+  box-shadow:4px 4px 5px #000;
+}
+.head image{
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: 50rpx;
+  margin-top: 50rpx;
+}
+.head text{
+  position: relative;
+  top: -40rpx;
+  font-size: large;
+}
+.item{
+  width: 50%;
+  height: 100rpx;
+  margin: 40rpx auto;
+  background-color: white;
+  border: rgb(212, 162, 100) solid 3rpx;
+  border-radius: 100rpx;
+}
+
+.item text{
+  font-size:x-large;
+  margin-left: 90rpx;
+  position: relative;
+  top: 20rpx;
+}
+#first{
+  margin-top: 100rpx;
+}
+.button{
+  
+  width: 60%;
+  height: 100rpx;
+  margin: 100rpx auto;
+  background-color: rgb(248, 252, 25);
+  border: rgb(212, 162, 100) solid 3rpx;
+  border-radius: 100rpx;
+  box-shadow:0px 0px 10px #000;
+}
+.button text{
+  font-size:xx-large;
+  margin-left: 90rpx;
+  position: relative;
+  top: 10rpx;
+}

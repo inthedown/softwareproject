@@ -1,0 +1,48 @@
+<!--pages/quiz/quiz.wxml-->
+<view class="age">
+    <text class="head"> 
+        你的年龄是？
+    </text>
+    <button size="mini" class="age_option">
+        <text>18-29</text>
+    </button>
+    <button size="mini" class="age_option">
+        <text>30-49</text>
+    </button>
+    <button size="mini" class="age_option">
+        <text>50-64</text>
+    </button>
+    <button size="mini" class="age_option">
+        <text>65-69</text>
+    </button>
+    <button size="mini" class="age_option">
+        <text>70+</text>
+    </button>
+</view>
+<view class="gender">
+    <text class="head"> 
+        你的性别是？
+    </text>
+    <button size="mini" class="age_option">
+        男
+    </button>
+    <button size="mini" class="age_option">
+        女
+    </button>
+</view>
+<view class="height">
+    <text class="head"></text>
+        你的身高是？
+    <input type="text" bindinput="handleInput1"/>
+    <view>
+        {{num}}
+    </view>
+</view>
+<view class="weight">
+    <text class="head"></text>
+        你的体重是？
+    <input type="text" bindinput="handleInput2"/>
+    <view>
+        {{num}}
+    </view>
+</view>

@@ -1,0 +1,96 @@
+/* pages/report_detail/report_detail.wxss */
+Page{
+  background-color: #F9F2BC;
+}
+image{
+  width: 75rpx;
+  height: 75rpx;
+  position: relative;
+  top: -30rpx;
+  left: -20rpx;
+}
+text{
+  font-size: 27rpx;
+  position: relative;
+  top:-10rpx;
+}
+.head{
+  width: 85%;
+  height: 100rpx;
+  margin: 100rpx auto;  
+  border: #BBBBBB 5rpx solid;
+  border-radius: 50rpx;
+  background-color: #FFF62E;
+}
+.test{
+  width: 40rpx;
+  height: 40rpx;
+  float: right;
+  top: 28rpx;
+}
+.part2{
+  width: 90%;
+  height: 300rpx;
+  margin: 100rpx auto;
+  border: #BBBBBB 5rpx solid;
+  border-radius: 15rpx;
+  background-color: #ffffff;
+}
+.timetxt{
+  font-size: 26rpx;
+  float:left;
+  margin-left: 20rpx;
+}
+.report{
+  font-size: 25rpx;
+  float: right;
+  height: 40rpx;
+  width: 130rpx;
+  border: #BBBBBB 5rpx solid;
+  border-radius: 10rpx;
+  margin-top: 10rpx;
+  margin-right: 10rpx;
+}
+.recommend{
+  margin-top: 80rpx;
+  margin-left: 30rpx;
+  font-size: 27rpx;
+}
+.detail{
+  margin:auto auto;
+  margin-right: 10rpx;
+  width: 150rpx;
+  height:40rpx;
+  float: right;
+  border: #BBBBBB 3rpx solid;
+  border-radius: 10rpx;
+  background-color: #FFF476;
+}
+.txt{
+  font-size: 25rpx;
+  top:3rpx;
+  margin-left: 30rpx;
+  position: relative;
+}
+.name{
+  margin: 100rpx auto;
+  font-size: 37rpx;
+  top:35rpx;
+  left: 40rpx;
+}
+.txt2{
+  font-size: 26rpx;
+  margin: 100rpx auto;
+  margin-top: 20rpx;
+  margin-left: 150rpx;
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+.again{
+  margin-left: 300rpx;
+  width: 17%;
+  border: #BBBBBB 3rpx solid;
+  border-radius: 10rpx;
+  background-color: #FFF62E;
+}
+

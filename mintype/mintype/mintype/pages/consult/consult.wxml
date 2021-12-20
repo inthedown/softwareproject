@@ -1,0 +1,39 @@
+
+<view class="flex-row" style="display: block;" >
+    <view class="flex-item item" hover="true">
+        <view class="flex-row" style="display: flex;" >
+            <image class="head" src="https://tse4-mm.cn.bing.net/th/id/OIP-C.mgIWdjuXpz6xUtPVfhAubwHaHa?w=165&h=180&c=7&r=0&o=5&pid=1.7"/>
+            <view class="view-contain-ti">
+                <text class="text-ti">李医生</text>
+                <input class="input1"></input>
+            </view>
+        </view>
+        <view class="flex-row" style="display: flex; flex-direction: row-reverse;" >
+            <button size="mini" bindtap="tiaozhuan">在线咨询</button>
+            <button size="mini">电话咨询</button>
+        </view>
+    </view>
+    <view class="flex-item item" hover="true">
+      <view class="flex-row" style="display: flex;" >
+            <image class="head" src="https://tse4-mm.cn.bing.net/th/id/OIP-C.mgIWdjuXpz6xUtPVfhAubwHaHa?w=165&h=180&c=7&r=0&o=5&pid=1.7"/>
+            <view class="view-contain-ti">
+                <text class="text-ti">李医生</text>
+                <input class="input1"></input>
+            </view>
+        </view>
+        <view class="flex-row" style="display: flex; flex-direction: row-reverse;" >
+            <button size="mini"bindtap="tiaozhuan">在线咨询</button>
+            <button size="mini">电话咨询</button>
+        </view></view>
+    <view class="flex-item item" hover="true">
+      <view class="flex-row" style="display: flex;" >
+            <image class="head" src="https://tse4-mm.cn.bing.net/th/id/OIP-C.mgIWdjuXpz6xUtPVfhAubwHaHa?w=165&h=180&c=7&r=0&o=5&pid=1.7"/>
+            <view class="view-contain-ti">
+                <text class="text-ti">李医生</text>
+                <input class="input1"></input>
+            </view>
+        </view>
+        <view class="flex-row" style="display: flex; flex-direction: row-reverse;" >
+            <button size="mini"bindtap="tiaozhuan">在线咨询</button>
+        </view></view>
+</view>

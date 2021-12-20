@@ -1,0 +1,82 @@
+<!-- pages/mine/mine.wxml -->
+<view class="head">
+    <view class="imghead">
+    <block wx:if="{{!hasUserInfo}}">
+      <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取头像昵称 </button>
+      <button wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    </block>
+    <block wx:else>
+       <image src="{{userInfo.avatarUrl}}" mode="scaleToFill" binderror="" bindload=""></image>
+        <view class="name">{{userInfo.nickName}}</view>
+        <view class="level">Lv1</view>
+    </block>
+       
+    </view>
+    <view class="headright">
+        <view class="score">500</view>
+        <view class="scoretext">积分</view>
+    </view>
+</view>
+<view class="nav">
+    <view class="vip">
+        <image src="/icon/mine/vip.png" mode="scaleToFill" binderror="" bindload=""></image>
+        <text>开通会员</text>
+    </view>
+    <view class="market">
+        <image src="/icon/mine/market.png" mode="scaleToFill" binderror="" bindload=""></image>
+        <text>Nutrition积分商城</text>
+    </view>
+</view>
+<view class="more">
+    <view id="left">
+        <text>我的收藏</text>
+    </view>
+    <view id="right">
+        <text>查看更多</text>
+        <image src="/icon/mine/to.png" mode="scaleToFill" binderror="" bindload=""></image>
+    </view>
+</view>
+<view class="mid">
+    <view class="nav">
+        <view class="item">
+            <image src="/icon/_mine.png" mode="scaleToFill" binderror="" bindload=""></image>
+            <view class="content">
+                <text>我的报告</text>
+            </view>
+        </view>
+        <view class="item">
+            <image src="/icon/mine/edit.png" mode="scaleToFill" binderror="" bindload=""></image>
+            <view class="content">
+                <text>我的咨询</text>
+            </view>
+        </view>
+        <view class="item">
+            <image src="/icon/mine/type.png" mode="scaleToFill" binderror="" bindload=""></image>
+            <view class="content">
+                <text>推荐产品</text>
+            </view>
+        </view>
+        <view class="item">
+            <image src="/icon/mine/gift.png" mode="scaleToFill" binderror="" bindload=""></image>
+            <view class="content">
+                <text>礼物中心</text>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="footer" id="footerfirst">
+    <image src="/icon/mine/pakege.png" mode="scaleToFill" binderror="" bindload=""></image>
+    <text>我的钱包</text>
+</view>
+<view class="footer">
+    <image src="/icon/mine/dingyue.png" mode="scaleToFill" binderror="" bindload=""></image>
+    <text>我的订阅</text>
+</view>
+<view class="footer">
+    <image src="/icon/mine/help.png" mode="scaleToFill" binderror="" bindload=""></image>
+    <text>联系客服</text>
+</view>
+<view class="footer">
+    <image src="/icon/mine/join.png" mode="scaleToFill" binderror="" bindload=""></image>
+    <text>加入我们</text>
+</view>

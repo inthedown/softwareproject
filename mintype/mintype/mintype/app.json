@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/answer/answer",
+    "pages/quiz/quiz",
+    "pages/index/index",
+    "pages/test/test",
+    "pages/mine/mine",
+    "pages/demo05/demo05",
+
+
+   
+
+    "pages/chat/chat",
+    "pages/exact/exact",
+    "pages/report_detail/report_detail",
+   
+    
+    "pages/demo04/demo04",
+    "pages/demo03/demo03",
+    "pages/demo02/demo02",
+    "pages/report/report",
+    "pages/consult/consult",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F0EE28",
+    "navigationBarTitleText": "NUTRITION",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/_home.png",
+        "selectedIconPath": "icon/home.png"
+      },
+      {
+        "pagePath": "pages/report/report",
+        "text": "报告",
+        "iconPath": "icon/_report.png",
+        "selectedIconPath": "icon/report.png"
+      },
+      {
+        "pagePath": "pages/consult/consult",
+        "text": "咨询",
+        "iconPath": "icon/_consult.png",
+        "selectedIconPath": "icon/consult.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icon/_mine.png",
+        "selectedIconPath": "icon/mine.png"
+      }
+    ],
+    "color": "#696969",
+    "selectedColor": "#1296db"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
