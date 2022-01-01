@@ -1,0 +1,11 @@
+<!-- pages/demo05/demo05.wxml -->
+<view class="container">
+    <view class="title">推荐营养素</view>
+    <block wx:for="{{array}}" wx:key="id">
+        <view class="card">
+            <view class="name">{{item.name}}</view>
+            <view class="desc">{{item.describe}}</view>
+            <view class="effect">{{item.effect}}</view>
+        </view>
+    </block>
+</view>

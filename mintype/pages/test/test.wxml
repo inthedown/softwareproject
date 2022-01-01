@@ -1,16 +1,16 @@
-<!--pages/demo1/demo1.wxml-->
+<!-- pages/demo1/demo1.wxml -->
 <view class="content1">
-<text class="text1" decode>
-    &nbsp;&nbsp;&nbsp;&nbsp;—————
+    <text class="text1" decode>
+        &nbsp;&nbsp;&nbsp;&nbsp;—————
     &nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;PERSONAL
     &nbsp;&nbsp;&nbsp;&nbsp;NUTRITION
     &nbsp;&nbsp;&nbsp;&nbsp;QUESTIONNAIRE
     &nbsp;&nbsp;&nbsp;&nbsp;个人营养问卷
     &nbsp;
-</text>
-<text class="text2" decode>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·完成问卷大概需要3~5分钟
+    </text>
+    <text class="text2" decode>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·完成问卷大概需要3~5分钟
     &nbsp;
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·问卷由Nutrition
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国营养师专业团队设计
@@ -18,14 +18,15 @@
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;·采用国际营养学界主流的远程信息收集法
     &nbsp;&nbsp;&nbsp; ——【膳食频率问卷法（FFQs）】\n
     &nbsp;
-</text>
+    </text>
 </view>
-<view class="content2" >
-<text decode>
-&nbsp;
-</text>
-<text decode>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
-<radio bindtap='radioClick' checked="{{radioCheck}}"/>{{instructionBook}}
-<text class="text3">同意《Nutrition》隐私协议</text>
-<button style="width:200px;font-size: 10pt !important;" >开始答题</button>
+<view class="content2">
+    <text decode>&nbsp;</text>
+    <text decode>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </text>
+    <radio bindtap='radioClick' checked="{{radioCheck}}" />
+    {{instructionBook}}
+    <text class="text3">同意《Nutrition》隐私协议</text>
+    <button style="width:200px;font-size: 10pt !important;" bindtap="startquit">开始答题</button>
 </view>

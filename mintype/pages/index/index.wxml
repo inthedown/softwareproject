@@ -1,29 +1,53 @@
-<!--index.wxml-->
-
+<!-- index.wxml -->
 <swiper class="swiper1" autoplay interval="3000" circular indicator-dots>
-<swiper-item ><image class="picture1" mode="widthFix" src="//s2.loli.net/2021/12/04/WmLlu6XCvp2sgIP.png"/></swiper-item>
-<swiper-item><image class="picture1" mode="widthFix" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20190508%2F066e71f63c974cbf887a4c6769aca2cc.jpeg&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1641285372&t=f3e251f7949fa0305129ed0f3a8b6c59"/></swiper-item>
-<swiper-item><image class="picture1" mode="widthFix" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.51wendang.com%2Fpic%2Fd512dd562c7bcedd5184c662%2F1-2338-png_6_0_0_0_0_892_1263_892.979_1262.879-1653-0-0-1653.jpg&refer=http%3A%2F%2Fwww.51wendang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1641286855&t=5289a0d0e775a79a7a3d412b336a4f23"/></swiper-item>
+  <swiper-item>
+    <view class="picture1">
+      <image mode="scaleToFill" src="//s2.loli.net/2021/12/04/WmLlu6XCvp2sgIP.png" />
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class="picture1">
+      <image mode="scaleToFill" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20190508%2F066e71f63c974cbf887a4c6769aca2cc.jpeg&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1641285372&t=f3e251f7949fa0305129ed0f3a8b6c59" />
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class="picture1">
+      <image mode="scaleToFill" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.51wendang.com%2Fpic%2Fd512dd562c7bcedd5184c662%2F1-2338-png_6_0_0_0_0_892_1263_892.979_1262.879-1653-0-0-1653.jpg&refer=http%3A%2F%2Fwww.51wendang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1641286855&t=5289a0d0e775a79a7a3d412b336a4f23" />
+    </view>
+  </swiper-item>
 </swiper>
-
 <button bindtap="tiaozhuan" style="width:200px;font-size: 10pt !important;">开始评测 精准定制</button>
-
-<image class="picture1" mode="widthFix" src="//s2.loli.net/2021/12/04/nWuwjUgPkq56ZXb.jpg"/>
-
+<view class="mid">
+  <image mode="scaleToFill" src="//s2.loli.net/2021/12/04/nWuwjUgPkq56ZXb.jpg" />
+</view>
 <swiper class="swiper2" autoplay interval="3000" circular indicator-dots>
-<swiper-item><image class="picture1" mode="widthFix" src="//s2.loli.net/2021/12/04/RdrK2il3mqctFvJ.jpg"/></swiper-item>
-<swiper-item><image class="picture1" mode="widthFix" src="//s2.loli.net/2021/12/04/56EUIi8JxTlmNg7.jpg"/></swiper-item>
-<swiper-item><image class="picture1" mode="widthFix" src="//s2.loli.net/2021/12/04/Xo2mKU9ghduxtJi.jpg"/></swiper-item>
+  <swiper-item>
+    <view class="picture1">
+      <image mode="scaleToFill" src="//s2.loli.net/2021/12/04/RdrK2il3mqctFvJ.jpg" />
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class="picture1">
+      <image mode="scaleToFill" src="//s2.loli.net/2021/12/04/56EUIi8JxTlmNg7.jpg" />
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view class="picture1">
+      <image mode="scaleToFill" src="//s2.loli.net/2021/12/04/Xo2mKU9ghduxtJi.jpg" />
+    </view>
+  </swiper-item>
 </swiper>
-
 <view class="container">
   <view class="s1">
-  <image class="picture2" mode="widthFix" src="//s2.loli.net/2021/12/04/cklr72EzdFLteaG.png"/>
-  <text class="text1" decode>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;健康助手</text>
+    <image class="picture2" mode="widthFix" src="//s2.loli.net/2021/12/04/cklr72EzdFLteaG.png" />
+    <view class="txt">
+      <text class="text1" decode>健康助手</text>
+    </view>
   </view>
-  
   <view class="s2">
-    <image class="picture3" mode="widthFix" src="//s2.loli.net/2021/12/04/cwvJM9gThHVUF2D.jpg"/>
-    <text class="text2" decode>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关注公众号</text>
+    <image class="picture3" mode="widthFix" src="//s2.loli.net/2021/12/04/cwvJM9gThHVUF2D.jpg" />
+    <view class="txt">
+      <text class="text2" decode>关注公众号</text>
+    </view>
   </view>
 </view>

@@ -94,3 +94,42 @@ text{
   background-color: #FFF62E;
 }
 
+.part{
+  width: 80%;
+  height: 300rpx;
+  background-color: #FFF62E;
+  border: #BBBBBB solid 20rpx;
+  border-radius: 40rpx;
+  margin:  30rpx auto;
+}
+#time{
+  margin-left: 20rpx;
+  top: 10rpx;
+}
+#detailreport{
+  float: inline-end;
+  width: 150rpx;
+  height: 50rpx;
+  font-size: 10rpx;
+  margin: 10rpx 20rpx;
+}
+#detailproduct{
+  float: right;
+
+  width: 150rpx;
+  height: 50rpx;
+  font-size: 10rpx;
+  margin: 10rpx 20rpx;
+}
+#name{
+  display: block;
+  margin-top: 50rpx;
+  margin-left: 100rpx;
+  font-size: large;
+}
+#recommend{
+  display: block;
+  margin-left: 100rpx;
+  margin-top: 30rpx;
+  font-size: medium;
+}

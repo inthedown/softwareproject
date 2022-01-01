@@ -1,0 +1,9 @@
+<!--pages/demo04/demo04.wxml-->
+<view class="container">
+  <view id="title"><text >你的健康报告</text></view>
+  
+  <block wx:for="{{array}}" wx:key="id" >
+    <view id="report"><text>{{item.text}}</text></view>
+  </block>
+
+</view>

@@ -1,0 +1,37 @@
+/* pages/demo05/demo05.wxss */
+Page{
+    background-color: rgb(235, 164, 78);
+}
+.container{
+    width: 80%;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 50rpx;
+    padding: 50rpx 40rpx;
+    background-color:#dfb9b9;
+    border: solid 3rpx rgb(230, 219, 75);
+}
+.card{
+    width: 90%;
+    height: fit-content;
+    background-color: beige;
+    display: block;
+    margin: 20rpx auto ;
+
+}
+.title{
+    font-size: 50rpx;
+    margin: 0 auto;
+    padding-top: 30rpx;
+    text-align: center;
+}
+.name{
+    font-size: larger;
+    padding-inline-start: 30rpx;
+}
+.desc{
+    margin-top: 20rpx;
+}
+.effect{
+    padding-top: 30rpx;
+}

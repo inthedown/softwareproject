@@ -1,0 +1,67 @@
+/* pages/answer/answer.wxss */
+.container{
+    height: warp-content;
+    width: 70%;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    margin-top: 100rpx;
+    border-radius: 40rpx;
+}
+.contain{
+    width: 100%;
+    height: warp-content;
+    margin-top: 50rpx;
+}
+.container-item{
+    width: 90%;
+    height: 100rpx;
+    margin:0 20rpx ;
+}
+.container-item image{
+    width: 40rpx;
+    height: 40rpx;
+    float: left;
+}
+.title{
+    height:auto;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 50rpx;
+    font-size: large;
+    text-align: center;
+}
+.table{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50rpx;
+    border: solid 5rpx #aaaaaa;
+    display: table;
+}
+.table label{
+    width: 100%;
+    display: block;
+    margin: 20rpx 30rpx;
+}
+.submit{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 70rpx;
+    border: #aaaaaa 5rpx solid;
+    border-radius: 100rpx;
+    overflow: hidden;
+    text-align: center;
+}
+.container-input{
+    margin: 0 100rpx;
+    border: #aaaaaa solid 3rpx;
+    border-radius: 20rpx;
+    height: 60rpx;
+}
+.container-input input{
+    float: left;
+    width: 70%;
+    height: fit-content;
+    
+}

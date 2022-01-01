@@ -9,7 +9,7 @@
     ]
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
     "enhance": true,
     "postcss": true,
@@ -35,7 +35,6 @@
       "disablePlugins": [],
       "outputPath": ""
     },
-    "enableEngineNative": false,
     "useIsolateContext": true,
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
@@ -48,8 +47,9 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.19.4",
-  "appid": "wxc12002f9726f0442",
+  "appid": "wx94c40ba6bd4a47d8",
   "projectname": "miniprogram-1",
+  "minigameRoot": "./",
   "debugOptions": {
     "hidedInDevtools": []
   },
@@ -59,6 +59,8 @@
     "servePath": ""
   },
   "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
   "condition": {
     "search": {
       "list": []

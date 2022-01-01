@@ -1,9 +1,16 @@
 <!-- pages/mine/mine.wxml -->
 <view class="head">
     <view class="imghead">
-        <image src="/icon/_mine.png" mode="scaleToFill" binderror="" bindload=""></image>
-        <view class="name">USERNAME</view>
+    <block wx:if="{{!hasUserInfo}}">
+      <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取头像昵称 </button>
+      <button wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    </block>
+    <block wx:else>
+       <image src="{{userInfo.avatarUrl}}" mode="scaleToFill" binderror="" bindload=""></image>
+        <view class="name">{{userInfo.nickName}}</view>
         <view class="level">Lv1</view>
+    </block>
+       
     </view>
     <view class="headright">
         <view class="score">500</view>

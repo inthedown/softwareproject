@@ -1,0 +1,20 @@
+/* pages/demo04/demo04.wxss */
+.container{
+  width: 80%;
+  height: fit-content;
+  margin: 0 auto;
+  margin-top: 100rpx;
+  background-color: bisque;
+  border: solid #aaaaaa 10rpx;
+  border-radius:30rpx;
+  padding-bottom: 40rpx;
+}
+#title{
+  text-align:center;
+}
+#report{
+  font-size: medium;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  padding-inline-start: 30rpx;
+}

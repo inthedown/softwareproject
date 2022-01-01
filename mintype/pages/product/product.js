@@ -1,17 +1,25 @@
-// pages/test/test.js
+// pages/demo05/demo05.js
+const app=getApp()
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-      radioCheck:false
+    array:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    this.setData({
+      index:options.index
+    })
+    console.log(this.data.index)
+    this.getProduct()
+
+   
 
   },
 
@@ -63,28 +71,22 @@ Page({
   onShareAppMessage: function () {
 
   },
-  startquit: function(){
-    var radioCheck=this.data.radioCheck
-   // console.log(radioCheck)
-    if(radioCheck!=true){
-      wx.showModal({content:"请查看隐私协议并勾选"})
-    }else{
-      wx.navigateTo({
-        url: '/pages/answer/answer',
+  getProduct: function () {
+    var that = this;
+      wx.request({
+        url: 'http://localhost:8080/test/getRepPro',
+        data: {
+          openid: app.globalData.openid,
+          num:this.data.index
+        },
+        method: "GET",
+        success(res) {
+          console.log(res),
+            that.setData({
+              array:res.data.array
+            })
+
+        }
       })
-    }
-    
-},
-radioClick:function(){
-  if(this.data.radioCheck==true){
-    this.setData({
-      radioCheck:false
-    })
-  }else{
-    this.setData({
-      radioCheck:true
-    })
-  }
-  
-}
+  },
 })
